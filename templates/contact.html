@@ -1,0 +1,32 @@
+{% extends 'layout.html' %} 
+{% block main %}
+
+<div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>
+        Have questions, feedback, or just want to say hello?  
+        Fill out the form below and we’ll get back to you as soon as possible.
+    </p>
+
+        
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <h2>Other Ways to Reach Us</h2>
+    <p>
+        📧 Email: uchenelson9010@gmail.com <br>
+        📞 Phone: +234 814 919 4032 <br>
+        📍 Address: Abuja, Nigeria
+    </p>
+</div>
+
+{% endblock main %}

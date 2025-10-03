@@ -1,0 +1,39 @@
+{% extends 'layout.html' %} 
+{% block main %}
+
+
+<div class="about-container">
+    <h1>About Us</h1>
+    <p>
+        Welcome to our website! We are passionate about delivering high-quality services
+        and creating solutions that make life easier. Our team is dedicated to excellence,
+        innovation, and customer satisfaction.
+    </p>
+
+    <h2>Our Mission</h2>
+    <p>
+        To provide world-class solutions that empower individuals and businesses 
+        to achieve more through technology.
+    </p>
+
+    <h2>Our Vision</h2>
+    <p>
+        To be a trusted leader in innovation, creating impactful solutions 
+        that inspire growth and success.
+    </p>
+
+    <h2>Meet the Team</h2>
+    <ul>
+        <li><strong>Uche Nelson</strong> – Data Analyst & Founder</li>
+        <li><strong>Jane Doe</strong> – Product Designer</li>
+        <li><strong>John Smith</strong> – Developer</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+    <p>
+        You can always reach out via our <a href="{% url 'contact' %}">Contact Page</a>.
+    </p>
+</div>
+
+
+{% endblock main %}

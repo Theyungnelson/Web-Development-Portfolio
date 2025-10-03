@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block main %}
+<h1> Young Developer</h1>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae?</p>
+<section>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{form}}
+        <button>Post</button>
+    </form>
+</section>
+
+{% endblock main %}
